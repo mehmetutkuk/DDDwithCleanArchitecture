@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euronext.CompanyWebcast.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euronext.CompanyWebcast.Insfrastructure", "Euronext.CompanyWebcast.Insfrastructure\Euronext.CompanyWebcast.Insfrastructure.csproj", "{E218A7D0-A9B6-4D1C-83D8-BB15292823CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euronext.CompanyWebcast.Tests", "Euronext.CompanyWebcast.Tests\Euronext.CompanyWebcast.Tests.csproj", "{DE342A09-1994-4B82-8F9C-65789A418F51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{E218A7D0-A9B6-4D1C-83D8-BB15292823CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E218A7D0-A9B6-4D1C-83D8-BB15292823CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E218A7D0-A9B6-4D1C-83D8-BB15292823CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE342A09-1994-4B82-8F9C-65789A418F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE342A09-1994-4B82-8F9C-65789A418F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE342A09-1994-4B82-8F9C-65789A418F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE342A09-1994-4B82-8F9C-65789A418F51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
