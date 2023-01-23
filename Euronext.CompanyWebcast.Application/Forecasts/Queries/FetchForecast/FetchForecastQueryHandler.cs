@@ -4,7 +4,6 @@ using Euronext.CompanyWebcast.Application.Common.Interfaces;
 using Euronext.CompanyWebcast.Application.Forecasts.Common;
 using MediatR;
 
-
 namespace Euronext.CompanyWebcast.Application.Forecasts.Queries.CreateForecast;
 
 
@@ -24,7 +23,6 @@ public class FetchForecastQueryHandler :
     {
         await Task.CompletedTask;
         var result = await _forecastRepository.FetchWeeklyForecast(request.ForecastDateTime, cancellationToken);
-
         return new ForecastWeeklyResult(result);
     }
 

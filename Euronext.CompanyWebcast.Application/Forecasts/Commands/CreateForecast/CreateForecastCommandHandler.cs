@@ -22,6 +22,9 @@ public class CreateForecastCommandHandler : IRequestHandler<CreateForecastComman
     {
         await Task.CompletedTask;
 
+        var isExist = await _forecastRepository.CheckForecastIsExist(request.ForecastDateTime, cancellationToken);
+        if(isExist)
+            return Error.Validation(description: $"Forecast for {request.ForecastDateTime.Date} already exist");
         var forecast = Forecast.Create(
             weathermanId: WeathermanId.Create(request.WeathermanId),
             forecastDateTime: request.ForecastDateTime,

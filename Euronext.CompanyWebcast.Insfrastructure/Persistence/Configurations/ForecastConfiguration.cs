@@ -18,9 +18,7 @@ public class ForecastConfigurations : IEntityTypeConfiguration<Forecast>
      private void ConfigureForecastsTable(EntityTypeBuilder<Forecast> builder)
     {
         builder.ToTable("Forecasts");
-
         builder.HasKey(m => m.Id);
-
         builder.Property(m => m.Id)
             .ValueGeneratedNever()
             .HasConversion(

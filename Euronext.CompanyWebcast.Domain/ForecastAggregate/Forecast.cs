@@ -66,7 +66,7 @@ public sealed class Forecast : AggregateRoot<ForecastId>
     }
 
 #pragma warning disable CS8618
-    private Forecast(ForecastId forecastId)
+    private Forecast()
     {
     }
 #pragma warning restore CS8618

@@ -24,9 +24,13 @@ public class ForecastRepository : IForecastRepository
     public async Task<IEnumerable<ForecastResult>> FetchWeeklyForecast(DateTime forecastDateTime, CancellationToken cancellationToken)
     {
         var endDate = forecastDateTime.AddDays(7);
-        var result = await _dbContext.Forecasts
+        return await _dbContext.Forecasts
           .Where(s => s.ForecastDateTime >= forecastDateTime
           && s.ForecastDateTime <= endDate).Select(s => new ForecastResult(s.DegreesCelsius, s.WeathermanId.Value, s.ForecastDateTime, s.WeatherStatus)).ToListAsync(cancellationToken);
-    return result;
+    }
+
+    public async Task<bool> CheckForecastIsExist(DateTime forecastDateTime, CancellationToken cancellationToken)
+    {
+        return await _dbContext.Forecasts.AnyAsync(s => s.ForecastDateTime.Date == forecastDateTime.Date, cancellationToken);
     }
 }

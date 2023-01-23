@@ -4,6 +4,7 @@ using Euronext.CompanyWebcast.Insfrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Euronext.CompanyWebcast.Insfrastructure.Migrations
 {
     [DbContext(typeof(CompanyWebcastDbContext))]
-    partial class CompanyWebcastDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230123134753_Diff")]
+    partial class Diff
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
