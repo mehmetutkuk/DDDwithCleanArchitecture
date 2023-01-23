@@ -1,0 +1,69 @@
+﻿<Properties StartupConfiguration="{266749AC-D380-43BF-8956-B97A9B960A5E}|http">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Euronext.CompanyWebcast.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/m.kul/Documents/Assessment/Euronext.CompanyWebcast/Euronext.CompanyWebcast.API/Controllers/ForecastController.cs" relfile="Euronext.CompanyWebcast.API/Controllers/ForecastController.cs" line="26" column="1" />
+      <Breakpoint file="/Users/m.kul/Documents/Assessment/Euronext.CompanyWebcast/Euronext.CompanyWebcast.Application/Forecasts/Commands/CreateForecast/CreateForecastCommandHandler.cs" relfile="Euronext.CompanyWebcast.Application/Forecasts/Commands/CreateForecast/CreateForecastCommandHandler.cs" line="25" column="1" />
+      <Breakpoint file="/Users/m.kul/Documents/Assessment/Euronext.CompanyWebcast/Euronext.CompanyWebcast.Application/Forecasts/Commands/CreateForecast/CreateForecastCommandValidator.cs" relfile="Euronext.CompanyWebcast.Application/Forecasts/Commands/CreateForecast/CreateForecastCommandValidator.cs" line="13" column="1" />
+      <Breakpoint file="/Users/m.kul/Documents/Assessment/Euronext.CompanyWebcast/Euronext.CompanyWebcast.Insfrastructure/Persistence/Repositories/ForecastRepository.cs" relfile="Euronext.CompanyWebcast.Insfrastructure/Persistence/Repositories/ForecastRepository.cs" line="26" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Euronext.CompanyWebcast.Application/Common/Interfaces/IForecastRepository.cs">
+    <Files>
+      <File FileName="Euronext.CompanyWebcast.API/Dockerfile" Line="1" Column="1" />
+      <File FileName="Euronext.CompanyWebcast.API/Controllers/ForecastController.cs" Line="26" Column="1" />
+      <File FileName="Euronext.CompanyWebcast.API/Program.cs" Line="21" Column="5" />
+      <File FileName="Euronext.CompanyWebcast.Contracts/Forecasts/CreateForecastRequest.cs" Line="5" Column="22" />
+      <File FileName="Euronext.CompanyWebcast.Contracts/Forecasts/FetchWeeklyForecastRequest.cs" Line="1" Column="1" />
+      <File FileName="Euronext.CompanyWebcast.Contracts/Forecasts/FetchWeeklyForecastResponse.cs" Line="1" Column="1" />
+      <File FileName="Euronext.CompanyWebcast.Contracts/Forecasts/ForecastResponse.cs" Line="1" Column="1" />
+      <File FileName="Euronext.CompanyWebcast.API/Controllers/ApiControlller.cs" Line="1" Column="1" />
+      <File FileName="Euronext.CompanyWebcast.API/DependencyInjection.cs" Line="1" Column="1" />
+      <File FileName="Euronext.CompanyWebcast.Application/Forecasts/Commands/CreateForecast/CreateForecastCommandHandler.cs" Line="25" Column="1" />
+      <File FileName="Euronext.CompanyWebcast.Application/Forecasts/Commands/CreateForecast/CreateForecastCommandValidator.cs" Line="13" Column="1" />
+      <File FileName="Euronext.CompanyWebcast.Application/Common/Behaviors/ValidationBehavior.cs" Line="16" Column="1" />
+      <File FileName="Euronext.CompanyWebcast.Application/Forecasts/Commands/CreateForecast/CreateForecastCommand.cs" Line="8" Column="36" />
+      <File FileName="Euronext.CompanyWebcast.API/Common/Mapping/ForecastMappingConfig.cs" Line="17" Column="17" />
+      <File FileName="Euronext.CompanyWebcast.Insfrastructure/Persistence/Repositories/ForecastRepository.cs" Line="9" Column="39" />
+      <File FileName="Euronext.CompanyWebcast.Application/Common/Interfaces/IForecastRepository.cs" Line="8" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Euronext.CompanyWebcast" expanded="True">
+            <Node name="Euronext.CompanyWebcast.API" expanded="True">
+              <Node name="Common" expanded="True">
+                <Node name="Mapping" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="Euronext.CompanyWebcast.Application" expanded="True">
+              <Node name="Common" expanded="True">
+                <Node name="Behaviors" expanded="True" />
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="Forecasts" expanded="True">
+                <Node name="Commands" expanded="True">
+                  <Node name="CreateForecast" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Euronext.CompanyWebcast.Contracts" expanded="True">
+              <Node name="Forecasts" expanded="True" />
+            </Node>
+            <Node name="Euronext.CompanyWebcast.Insfrastructure" expanded="True">
+              <Node name="Persistence" expanded="True">
+                <Node name="Repositories" expanded="True">
+                  <Node name="ForecastRepository.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

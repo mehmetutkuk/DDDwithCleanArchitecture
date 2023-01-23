@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "W6sECs5ne30DhAlqphGIe4Ogs3BwCJon6GzZ+Lr4+fhxfEX+o4alyCME/pdwXCiaXzohy/D71oEwftJ6SU40vg==",
+  "success": true,
+  "projectFilePath": "/Users/m.kul/Documents/Assessment/Euronext.CompanyWebcast/Euronext.CompanyWebcast.Domain/Euronext.CompanyWebcast.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/m.kul/.nuget/packages/ardalis.smartenum/2.1.0/ardalis.smartenum.2.1.0.nupkg.sha512",
+    "/Users/m.kul/.nuget/packages/erroror/1.2.0/erroror.1.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

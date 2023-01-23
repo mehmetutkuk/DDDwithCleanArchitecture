@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pl6XmxNKPgCUSA4DivJh/Q5oEB6vC8nDFxtWe+7MRhY=",
+  "Source": "Euronext.CompanyWebcast.API",
+  "BasePath": "_content/Euronext.CompanyWebcast.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

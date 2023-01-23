@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "aNeN3ao0UQjAWoTSDzjcD2L0ObPDvldpV1y4xniklY0iPh00sB2ROen0Y8dMXvqFnLlR4AviKFnHKDzbxQQ1Lw==",
+  "success": true,
+  "projectFilePath": "/Users/m.kul/Documents/Assessment/Euronext.CompanyWebcast/Euronext.CompanyWebcast.Application/Euronext.CompanyWebcast.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/m.kul/.nuget/packages/ardalis.smartenum/2.1.0/ardalis.smartenum.2.1.0.nupkg.sha512",
+    "/Users/m.kul/.nuget/packages/erroror/1.2.0/erroror.1.2.0.nupkg.sha512",
+    "/Users/m.kul/.nuget/packages/fluentvalidation/11.3.0/fluentvalidation.11.3.0.nupkg.sha512",
+    "/Users/m.kul/.nuget/packages/fluentvalidation.aspnetcore/11.2.2/fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "/Users/m.kul/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.2.1/fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "/Users/m.kul/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/Users/m.kul/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/m.kul/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.0.0/mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/Users/m.kul/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

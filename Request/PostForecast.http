@@ -1,0 +1,10 @@
+POST http://localhost:5103/api/Forecasts
+?weathermanId='00-c10a26415fc9c9689c4f1e07b389c278-a9c6b4d58b42aacf-00' HTTP/1.1
+content-type: application/json
+
+{
+    "request":{
+        "celsius": 24.3,
+        "forecastDateTime": "2023-01-23T11:00:00"   
+     }
+}
