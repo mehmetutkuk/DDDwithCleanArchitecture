@@ -35,7 +35,7 @@ public sealed class Forecast : AggregateRoot<ForecastId>
                     return "Balmy";
                 case < 50:
                     return "Hot";
-                case >= 55:
+                case >= 50:
                     return "Sweltering";
             };
         }
