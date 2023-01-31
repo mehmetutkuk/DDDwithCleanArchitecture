@@ -1,4 +1,3 @@
-# Euronext.CompanyWebcast
 
 The solution is developed with Domain Driven Design and Clean Architectures prensibles. I used external common library such as ErrorOr, MediatR, Moq etc. purpose of the covering some requirements of the project has. 
 
