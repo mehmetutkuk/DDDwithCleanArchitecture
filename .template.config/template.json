@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Utku Kul",
+  "classifications": [ "Common", "Web", "DDDAndOnion", "Clean Architecture","Domain Driven Design" ],
+  "identity": "DDDOA.SolutionTemplate.CSharp",
+  "name": "DDD & Onion Architecture Template",
+  "shortName": "DDDOA",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "DDDOA",
+  "preferNameDirectory": true,
+  "symbols": {
+    "includetest": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true"
+    },
+    "ParentProjectNamspace": {
+      "type": "parameter",
+      "replaces": "DDDOA.SolutionTemplate",
+      "dataType": "string",
+      "defaultValue": "DDDOA.SolutionTemplate"
+    }
+  },
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "modifiers": [
+        {
+          "condition": "(!includetest)",
+          "exclude": [ "DDDOA.SolutionTemplate.UnitTests/**/*" ]
+        }
+      ],
+      "exclude": [
+        "README.md",
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        ".vs/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        "**/.git/**",
+        "*.nuspec",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}
