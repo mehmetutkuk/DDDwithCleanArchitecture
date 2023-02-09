@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageOutputPath>.</PackageOutputPath>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include=".\**\*" Exclude="**\bin\**\*;**\obj\**\*" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <Version>0.0.3</Version>
+    <PackageId>DDDOA.SolutionTemplate.CSharp</PackageId>
+    <Title>DDD and Onion Architecture Template</Title>
+    <Company>Utku KUL</Company>
+    <Authors>Utku KUL</Authors>
+    <Copyright>Utku KUL</Copyright>
+    <Description>A Dotnet 7 template for DDD and Onion Architecture</Description>
+    <PackageTags>Common; Web; DDDAndOnion; Clean Architecture; Domain Driven Design</PackageTags>
+    <PackageCopyright>Utku KUL</PackageCopyright>
+    <PackageProjectUrl>https://github.com/mehmetutkuk/DDDwithCleanArchitecture#readme</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/mehmetutkuk/DDDwithCleanArchitecture</RepositoryUrl>
+  </PropertyGroup>
+</Project>
