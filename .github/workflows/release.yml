@@ -14,9 +14,9 @@ jobs:
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v1
     - name: Build
-      run: dotnet build -c Release
+      run: dotnet build DDDOA.SolutionTemplate.sln -c Release
     - name: Test
-      run: dotnet test -c Release --no-build
+      run: dotnet test DDDOA.SolutionTemplate.sln -c Release --no-build
     - name: Pack nugets
       run: dotnet pack nuget.csproj -c Release --no-build --output .
     - name: Push to NuGet
