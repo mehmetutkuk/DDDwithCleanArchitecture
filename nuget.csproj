@@ -12,7 +12,7 @@
 
 	<ItemGroup>
 		<Content Include=".\**\*" 
-				 exclude="**\bin;**\obj;**\.vs\**;nuget.csproj" />
+				 Exclude="**\bin;**\obj;**\.vs\**;nuget.csproj" />
 		<Compile Remove="**\*" />
 	</ItemGroup>
 
