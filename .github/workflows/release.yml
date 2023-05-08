@@ -17,6 +17,8 @@ jobs:
       run: dotnet build DDDOA.SolutionTemplate.sln -c Release
     - name: Test
       run: dotnet test DDDOA.SolutionTemplate.sln -c Release
+    - name: Restore Nuget Project
+      run: dotnet restore nuget.csproj
     - name: Pack nugets
       run: dotnet pack nuget.csproj -c Release --no-build --output .
     - name: Push to NuGet
