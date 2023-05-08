@@ -9,10 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-    - name: Get current git tag
-      uses: devops-actions/action-get-tag@v1.0.2
-      with:
-        default: v0.0.3.4 # Optional: Default version when tag not found
     - name: Checkout
       uses: actions/checkout@v2
     - name: Setup .NET SDK
@@ -21,6 +17,10 @@ jobs:
       run: dotnet build DDDOA.SolutionTemplate.sln -c Release
     - name: Test
       run: dotnet test DDDOA.SolutionTemplate.sln -c Release
+    - name: Get current git tag
+      uses: devops-actions/action-get-tag@v1.0.2
+      with:
+        default: v0.0.3.4 # Optional: Default version when tag not found
     - name: Restore Nuget Project
       run: dotnet restore nuget.csproj
     - name: Use tag
