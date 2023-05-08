@@ -24,7 +24,7 @@ jobs:
     - name: Restore Nuget Project
       run: dotnet restore nuget.csproj
     - name: Use tag
-      run: echo ${{steps.tag.outputs.tag}}
+      run: echo ${{steps.tag.outputs}}
     - name: Pack nugets
       run: dotnet pack nuget.csproj -c Release --no-build --output . -p:PackageVersion=${{steps.tag.outputs.tag}}
     - name: Push to NuGet
