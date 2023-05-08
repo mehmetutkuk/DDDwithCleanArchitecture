@@ -20,6 +20,6 @@ jobs:
     - name: Restore Nuget Project
       run: dotnet restore nuget.csproj
     - name: Pack nugets
-      run: dotnet pack nuget.csproj -c Release --no-build --output .
+      run: dotnet pack nuget.csproj -c Release --no-build --output . -p:PackageVersion=$(Version)
     - name: Push to NuGet
       run: dotnet nuget push "*.nupkg" --api-key ${{secrets.nuget_api_key}} --source https://api.nuget.org/v3/index.json
