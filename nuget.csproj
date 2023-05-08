@@ -12,8 +12,8 @@
 
 	<ItemGroup>
 		<Content Include=".\**\*" 
-				 Exclude="**\bin;**\obj;**\.vs\**;nuget.csproj" />
-		<Compile Remove="**\*" />
+				 Exclude="**\bin;**\obj;**\.vs\**;" />
+		<Compile Remove="**\*;.\nuget.csproj"/>
 	</ItemGroup>
 
 	<PropertyGroup>
