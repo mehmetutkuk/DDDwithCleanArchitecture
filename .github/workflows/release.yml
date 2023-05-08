@@ -18,13 +18,14 @@ jobs:
     - name: Test
       run: dotnet test DDDOA.SolutionTemplate.sln -c Release
     - name: Get current git tag
+      id: tag
       uses: devops-actions/action-get-tag@v1.0.2
       with:
         default: v0.0.3.4 # Optional: Default version when tag not found
     - name: Restore Nuget Project
       run: dotnet restore nuget.csproj
     - name: Use tag
-      run: echo ${{steps.tag.outputs}}
+      run: echo ${{steps.tag.outputs.tag}}
     - name: Pack nugets
       run: dotnet pack nuget.csproj -c Release --no-build --output . -p:PackageVersion=${{steps.tag.outputs.tag}}
     - name: Push to NuGet
